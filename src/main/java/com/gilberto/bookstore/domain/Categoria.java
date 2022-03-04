@@ -13,6 +13,8 @@ import javax.persistence.OneToMany;
 @Entity
 public class Categoria implements Serializable{
 	 
+	 
+	 
 	private static final long serialVersionUID = 1L;
 	
 	@Id
@@ -26,7 +28,7 @@ public class Categoria implements Serializable{
 
 	public Categoria() {
 		super();
-		// TODO Auto-generated constructor stub
+		 
 	}
 
 	public Categoria(Integer id, String nome, String descricao) {
